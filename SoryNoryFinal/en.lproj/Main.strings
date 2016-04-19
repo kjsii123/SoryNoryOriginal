@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Sorynory hearing aid"; ObjectID = "4cD-hb-QaV"; */
+"4cD-hb-QaV.text" = "Sorynory hearing aid";
+
+/* Class = "UITabBarItem"; title = "settings"; ObjectID = "8Ae-rx-eLm"; */
+"8Ae-rx-eLm.title" = "settings";
+
+/* Class = "UILabel"; text = "ON/OFF"; ObjectID = "MtR-CU-cAn"; */
+"MtR-CU-cAn.text" = "ON/OFF";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "RTx-ct-PWK"; */
+"RTx-ct-PWK.text" = "4";
+
+/* Class = "UILabel"; text = "bluetooth"; ObjectID = "VwO-3U-qaW"; */
+"VwO-3U-qaW.text" = "bluetooth";
+
+/* Class = "UILabel"; text = "microphone"; ObjectID = "YNf-ia-jhm"; */
+"YNf-ia-jhm.text" = "microphone";
+
+/* Class = "UITabBarItem"; title = "home"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "home";
+
+/* Class = "UITabBarItem"; title = "graph"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "graph";
+
+/* Class = "UITabBarItem"; title = "phones"; ObjectID = "d4X-gK-PaA"; */
+"d4X-gK-PaA.title" = "phones";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";

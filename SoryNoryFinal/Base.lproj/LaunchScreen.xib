@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MittleSchrift.ttf">
+            <string>BlueHighway</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jDg-fE-ppn">
+                    <rect key="frame" x="140" y="140" width="201" height="199"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="GFj-W8-9Lh">
+                            <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="200" id="b0h-qW-VCC">
+                            <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="GFj-W8-9Lh"/>
+                            <exclude reference="b0h-qW-VCC"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="GFj-W8-9Lh"/>
+                            <include reference="b0h-qW-VCC"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sorynory" translatesAutoresizingMaskIntoConstraints="NO" id="X9Q-VO-4ht">
+                    <rect key="frame" x="155" y="347" width="291" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="X9Q-VO-4ht" secondAttribute="height" multiplier="97:15" id="56Z-lv-BCH"/>
+                        <constraint firstAttribute="height" constant="45" id="Vqn-sA-dvw"/>
+                        <constraint firstAttribute="width" constant="291" id="y5v-Pj-Raa"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="56Z-lv-BCH"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="56Z-lv-BCH"/>
+                            <exclude reference="Vqn-sA-dvw"/>
+                            <exclude reference="y5v-Pj-Raa"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="smartEars" translatesAutoresizingMaskIntoConstraints="NO" id="6Jy-LE-SHI">
+                    <rect key="frame" x="226" y="400" width="148" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="148" id="CJA-p5-Ucf"/>
+                        <constraint firstAttribute="height" constant="20" id="fSb-Jp-DXZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="@copyright 2014 sorynory.com all rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="443" width="561" height="17"/>
+                    <fontDescription key="fontDescription" name="BlueHighway" family="DIN Mittelschrift" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.81960784313725488" green="0.41960784313725491" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="X9Q-VO-4ht" secondAttribute="centerX" constant="-25.5" id="5a1-Lh-Gg3"/>
+                <constraint firstAttribute="centerX" secondItem="X9Q-VO-4ht" secondAttribute="centerX" constant="-0.5" id="804-gF-95Y"/>
+                <constraint firstAttribute="centerX" secondItem="6Jy-LE-SHI" secondAttribute="centerX" id="Fal-wk-8ML"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="6Jy-LE-SHI" firstAttribute="top" secondItem="X9Q-VO-4ht" secondAttribute="bottom" constant="16" id="PBr-YZ-vcG"/>
+                <constraint firstItem="X9Q-VO-4ht" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="VGX-xT-irB"/>
+                <constraint firstAttribute="trailing" secondItem="6Jy-LE-SHI" secondAttribute="trailing" constant="166" id="XMq-nf-bb9"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="61" id="YuC-fF-SE3">
+                    <variation key="heightClass=regular-widthClass=compact" constant="60"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstItem="X9Q-VO-4ht" firstAttribute="top" secondItem="jDg-fE-ppn" secondAttribute="bottom" constant="8" id="ceF-Pk-qr4"/>
+                <constraint firstItem="jDg-fE-ppn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="162" id="dkH-tV-YAD"/>
+                <constraint firstItem="X9Q-VO-4ht" firstAttribute="top" secondItem="jDg-fE-ppn" secondAttribute="bottom" constant="19" id="e3V-VV-ego"/>
+                <constraint firstItem="X9Q-VO-4ht" firstAttribute="top" secondItem="jDg-fE-ppn" secondAttribute="bottom" constant="44" id="fHK-FZ-rBB"/>
+                <constraint firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" constant="60" id="ghh-9h-jOd"/>
+                <constraint firstAttribute="centerY" secondItem="6Jy-LE-SHI" secondAttribute="centerY" constant="-170" id="gt0-kl-MB4"/>
+                <constraint firstAttribute="centerX" secondItem="jDg-fE-ppn" secondAttribute="centerX" constant="-0.5" id="hr3-Cy-4eM"/>
+                <constraint firstAttribute="trailing" secondItem="X9Q-VO-4ht" secondAttribute="trailing" constant="54" id="itF-6S-Feu"/>
+                <constraint firstAttribute="centerX" secondItem="jDg-fE-ppn" secondAttribute="centerX" id="jSf-YQ-V4H"/>
+                <constraint firstItem="6Jy-LE-SHI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="166" id="jav-yE-AEo"/>
+                <constraint firstAttribute="centerY" secondItem="jDg-fE-ppn" secondAttribute="centerY" constant="0.5" id="s6Z-fY-ehb"/>
+                <constraint firstItem="6Jy-LE-SHI" firstAttribute="top" secondItem="X9Q-VO-4ht" secondAttribute="bottom" constant="8" id="vgh-Lh-Crb"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="56" id="yh4-EF-hm5">
+                    <variation key="heightClass=regular-widthClass=compact" constant="60"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="X9Q-VO-4ht" secondAttribute="centerY" constant="-134.5" id="zAk-ry-EQe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="dkH-tV-YAD"/>
+                    <exclude reference="jSf-YQ-V4H"/>
+                    <exclude reference="5a1-Lh-Gg3"/>
+                    <exclude reference="VGX-xT-irB"/>
+                    <exclude reference="e3V-VV-ego"/>
+                    <exclude reference="fHK-FZ-rBB"/>
+                    <exclude reference="itF-6S-Feu"/>
+                    <exclude reference="zAk-ry-EQe"/>
+                    <exclude reference="YuC-fF-SE3"/>
+                    <exclude reference="ghh-9h-jOd"/>
+                    <exclude reference="yh4-EF-hm5"/>
+                    <exclude reference="PBr-YZ-vcG"/>
+                    <exclude reference="XMq-nf-bb9"/>
+                    <exclude reference="gt0-kl-MB4"/>
+                    <exclude reference="jav-yE-AEo"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="dkH-tV-YAD"/>
+                    <exclude reference="hr3-Cy-4eM"/>
+                    <include reference="jSf-YQ-V4H"/>
+                    <exclude reference="s6Z-fY-ehb"/>
+                    <include reference="VGX-xT-irB"/>
+                    <exclude reference="ceF-Pk-qr4"/>
+                    <include reference="fHK-FZ-rBB"/>
+                    <include reference="itF-6S-Feu"/>
+                    <exclude reference="Kzo-t9-V3l"/>
+                    <exclude reference="MfP-vx-nX0"/>
+                    <include reference="YuC-fF-SE3"/>
+                    <exclude reference="ZEH-qu-HZ9"/>
+                    <include reference="ghh-9h-jOd"/>
+                    <include reference="yh4-EF-hm5"/>
+                    <include reference="PBr-YZ-vcG"/>
+                    <exclude reference="vgh-Lh-Crb"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="138" y="-236"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchLogo" width="403" height="397"/>
+        <image name="smartEars" width="296" height="41"/>
+        <image name="sorynory" width="582" height="90"/>
+    </resources>
+</document>
